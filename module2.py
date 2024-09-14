@@ -10,6 +10,6 @@ if Vanilla_ice_cream < Chocolate_ice_cream:
 elif Chocolate_ice_cream < Vanilla_ice_cream:
     print("Chocolate Ice cream is less expensive than Vanilla Ice cream.")
 else:
-    print("Both products have the same price.")
+    print("Both Ice creams have the same price.")
 
 
