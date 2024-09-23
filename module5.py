@@ -1,35 +1,37 @@
-# Prompt the user to enter a string
-input_string = input("Enter a string: ")
+# Python script that takes a string as input and performs various string manipulation operations based on user choice.
 
-# Display the string manipulation menu
+# 1. Prompt the user to enter a string
+user_input = input("Enter a text sentence: ")
+
+# 2. Display a menu of string manipulation options:
 print("\nString Manipulation Menu:")
-print("1. Convert to uppercase")
-print("2. Convert to lowercase")
-print("3. Slice the string")
-print("4. Calculate string length")
-print("5. Loop through characters")
+print("1. Convert text sentence to uppercase")
+print("2. Convert text sentence to lowercase")
+print("3. Slice the text sentence")
+print("4. Calculate all characters in the text sentence")
+print("5. Show all characters")
 
 # Prompt the user to enter a string.
 choice = int(input("Enter your choice (1-5): "))
 
 # Perform the selected string manipulation
 if choice == 1:
-    result = input_string.upper()
+    result = user_input.upper()
     print("Uppercase:", result)
 elif choice == 2:
-    result = input_string.lower()
+    result = user_input.lower()
     print("Lowercase:", result)
 elif choice == 3:
     start = int(input("Enter start index: "))
     end = int(input("Enter end index: "))
-    result = input_string[start:end]
-    print("Sliced string:", result)
+    result = user_input[start:end]
+    print("Sliced part of the text:", result)
 elif choice == 4:
-    length = len(input_string)
-    print("String length:", length)
+    length = len(user_input)
+    print("Text sentence length:", length)
 elif choice == 5:
     print("Characters:")
-    for char in input_string:
+    for char in user_input:
         print(char)
 else:
     print("Invalid choice.")

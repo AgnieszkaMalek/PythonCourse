@@ -1,0 +1,5 @@
+# Exchange rates
+GBP_TO_BGN = 2.35
+GBP_TO_PLN = 5.13
+GBP_TO_CZK = 30.17
+GBP_TO_HUF = 474.21

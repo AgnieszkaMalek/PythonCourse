@@ -1,7 +1,7 @@
 # Personal Information Card
-name = "Agnieszka"
-age = 47
-city = "Haddington"
+name = "Liz"
+age = 27
+city = "Liverpool"
 hobby = "Pyrography, especially during the winter time and swimming all year round"
 
 # Expose to view personal information
